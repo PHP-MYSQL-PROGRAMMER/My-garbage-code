@@ -124,7 +124,7 @@ class GDImageUp
 			if ( self::MAX_SIZE_IMG < $_FILES[$this -> _key]['size'] )
 			//if ( $this -> _max_size_img < $_FILES[$this -> _key]['size'] )
 			{
-				$this -> _E[] = 'Invalid File size';
+				$this -> _E[] = 'Invalid max size';
 			}
 		}
 		
